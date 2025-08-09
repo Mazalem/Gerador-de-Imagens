@@ -1,6 +1,7 @@
 import streamlit as st
 from PIL import Image
 import numpy as np
+from model import generate_image
 
 st.set_page_config(page_title="Gerador de Imagens", layout="centered")
 
