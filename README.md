@@ -3,7 +3,6 @@
 # Gerador de Imagens – Stable Diffusion
 
 Este projeto utiliza o **Stable Diffusion** (via `keras_cv`) para gerar imagens a partir de prompts em inglês.
-A aplicação é desenvolvida em **Streamlit**, permitindo que o usuário apenas insira um prompt, clique em um botão e veja a imagem gerada logo abaixo.
 O modelo é carregado com otimizações para **velocidade** e **qualidade**.
 
 ---
@@ -11,7 +10,6 @@ O modelo é carregado com otimizações para **velocidade** e **qualidade**.
 ## 📌 Funcionalidades
 
 ✅ Geração de imagens de alta qualidade a partir de descrições em inglês
-✅ Interface web simples e interativa com **Streamlit**
 ✅ Uso de **mixed precision** e **JIT compilation** para maior desempenho
 ✅ Compatível com CPU e GPU
 
@@ -24,12 +22,14 @@ git clone https://github.com/Mazalem/Gerador-de-Imagens.git
 ```
 
 2. **Acesse a pasta do projeto**:
-* Importe o projeto para o https://streamlit.io/cloud
+* Importe o projeto para o https://streamlit.io/cloud ou para o https://lightning.ai/
+* Caso opte pelo lightning.ai, faça seu projeto com GPU machine L4.
+* Você pode rodar localmente, mas atente-se pois será requerido um alto poder computacional.
 
 4. **Utilize a aplicação**:
 
 * Digite seu prompt em inglês no campo de texto
-* Clique em **"Gerar Imagem"**
+* Clique em **"Gerar Imagem"** no Streamlit ou **Run All** no lightning.ai
 * Veja a imagem gerada logo abaixo
 
 ---
@@ -45,6 +45,8 @@ git clone https://github.com/Mazalem/Gerador-de-Imagens.git
 
 Você pode acessar a aplicação diretamente pelo link abaixo:
 
-[🚀 Acessar o AI Image Generator](https://modelo-gerador-de-imagens-Matheus.streamlit.app/)
+[▶️ Acessar pelo Lightning.AI](https://lightning.ai/matheusifsudestemg/vision-model/studios/gerador-de-imagens/code)
+
+[🚀 Acessar pelo Streamlit (Não está funcionando muito bem 🥲)](https://modelo-gerador-de-imagens-Matheus.streamlit.app/)
 
 ---
